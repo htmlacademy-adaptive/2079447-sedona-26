@@ -94,7 +94,7 @@ img {
   width: 23px;
   height: 23px;
   background-color: transparent;
-  background-image: url("../../images/svg/icon-menu.svg");
+  background-image: url("../images/svg/icon-menu.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -248,7 +248,7 @@ img {
   padding-top: 90px;
   padding-bottom: 85px;
   background-color: #8ea8c5;
-  background-image: url("../../images/svg/intro-triangle.svg"), url("../../images//banner-cover-desktop.jpg");
+  background-image: url("../images/svg/intro-triangle.svg"), url("../images/banner-cover-desktop.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -352,74 +352,6 @@ img {
 }
 .button:disabled {
   background-color: #e5e5e5;
-}
-
-.footer {
-  padding: 39px 20px 22px;
-  text-align: center;
-  text-transform: uppercase;
-}
-@media (min-width: 768px) {
-  .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 37px 60px 34px;
-  }
-}
-@media (min-width: 1200px) {
-  .footer {
-    padding: 35px 120px 34px;
-  }
-}
-
-.footer__hashtag {
-  display: inline-block;
-  margin-bottom: 34px;
-  font-weight: 700;
-  font-size: 21px;
-  line-height: 26px;
-  color: #000000;
-  text-decoration: none;
-}
-@media (min-width: 768px) {
-  .footer__hashtag {
-    margin-bottom: 0;
-  }
-}
-.footer__hashtag:hover, .footer__hashtag:focus {
-  outline: none;
-  opacity: 0.6;
-}
-.footer__hashtag:active {
-  opacity: 0.3;
-}
-
-.footer__copyright {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  line-height: 21px;
-  color: #000000;
-  text-decoration: none;
-}
-.footer__copyright:hover, .footer__copyright:focus {
-  color: #81b3d2;
-  outline: none;
-}
-.footer__copyright:active {
-  color: #b3b3b3;
-}
-
-.footer__copyright svg {
-  width: 27px;
-  height: 35px;
-  fill: currentColor;
-}
-
-.footer__copyright-text {
-  margin-right: 12px;
 }
 
 .map iframe {
@@ -795,7 +727,7 @@ img {
   right: 0;
   left: 0;
   height: 37px;
-  background-image: url("../../images/svg/advantages-triangle.svg");
+  background-image: url("../images/svg/advantages-triangle.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1364,5 +1296,73 @@ img {
   .form__fieldset-title--lines::after {
     margin-right: -100%;
   }
+}
+
+.footer {
+  padding: 39px 20px 22px;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 60px 34px;
+  }
+}
+@media (min-width: 1200px) {
+  .footer {
+    padding: 35px 120px 34px;
+  }
+}
+
+.footer__hashtag {
+  display: inline-block;
+  margin-bottom: 34px;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .footer__hashtag {
+    margin-bottom: 0;
+  }
+}
+.footer__hashtag:hover, .footer__hashtag:focus {
+  outline: none;
+  opacity: 0.6;
+}
+.footer__hashtag:active {
+  opacity: 0.3;
+}
+
+.footer__copyright {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  text-decoration: none;
+}
+.footer__copyright:hover, .footer__copyright:focus {
+  color: #81b3d2;
+  outline: none;
+}
+.footer__copyright:active {
+  color: #b3b3b3;
+}
+
+.footer__copyright svg {
+  width: 27px;
+  height: 35px;
+  fill: currentColor;
+}
+
+.footer__copyright-text {
+  margin-right: 12px;
 }
 /*# sourceMappingURL=style.css.map */
